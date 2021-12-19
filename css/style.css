@@ -1,0 +1,46 @@
+.container {
+    width: 1148px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.brand{
+    float: left;
+}
+
+.menu{
+    float: right;
+    list-style-type: none;
+}
+
+.container img{
+    display: block;
+    margin: 0 auto;
+}
+
+.menu li{
+    float: left;
+    margin-left: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 98%;
+        overflow: hidden;
+    }
+    
+    .brand{
+        float: none;
+        text-align: center;
+    }
+    
+    .menu{
+        float: none;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
