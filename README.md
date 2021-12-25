@@ -1,4 +1,12 @@
 # git-branch
+START
+-------------------------------------------
+git config --global user.name "John Doe" <br>
+git config --global user.email johndoe@example.com <br>
+<br>
+git config --list <br>
+git config --global --list <br>
+
 Day1
 การใช้งาน Git Step by Step
 -------------------------------------------
