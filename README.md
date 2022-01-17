@@ -138,7 +138,7 @@ git remote show origin
 
 Step 13: การอัพโหลดโค๊ดขึ้น remote (github) server
 ---
-git push -u origin main
+git push -u origin main <br>
 git push --all
 
 Day3
