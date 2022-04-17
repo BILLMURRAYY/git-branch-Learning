@@ -9,8 +9,8 @@ git config --global --list <br>
 
 How to remove remote origin from a Git repository
 -------------------------------------------
-git remote remove origin
-git remote set-url origin git://new.url.here
+git remote remove origin <br>
+git remote set-url origin git://new.url.here <br>
 
 Day1
 การใช้งาน Git Step by Step
