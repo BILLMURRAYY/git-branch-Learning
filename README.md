@@ -11,6 +11,16 @@ How to remove remote origin from a Git repository
 -------------------------------------------
 git remote remove origin <br>
 git remote set-url origin git://new.url.here <br>
+<br>
+! [rejected]        main -> main (fetch first)<br>
+error: failed to push some refs to 'https://github.com/BILLMURRAYY/new_oprs_backend.git'<br>
+hint: Updates were rejected because the remote contains work that you do<br>
+hint: not have locally. This is usually caused by another repository pushing<br>
+hint: to the same ref. You may want to first integrate the remote changes<br>
+hint: (e.g., 'git pull ...') before pushing again.<br>
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.<br>
+-------------------------------------------
+git push origin master --force<br>
 
 Day1
 การใช้งาน Git Step by Step
