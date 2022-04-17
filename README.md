@@ -7,6 +7,11 @@ git config --global user.email johndoe@example.com <br>
 git config --list <br>
 git config --global --list <br>
 
+How to remove remote origin from a Git repository
+-------------------------------------------
+git remote remove origin
+git remote set-url origin git://new.url.here
+
 Day1
 การใช้งาน Git Step by Step
 -------------------------------------------
